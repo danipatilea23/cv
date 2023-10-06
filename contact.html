@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date de contact</title>
+</head>
+<body>
+    <style>
+body{
+    background-color: darkorange;
+}
+
+    </style>
+    <p>Adresa: strada Razoare, nr. 38</p>
+    <p>Mail: <a href="https://mail.google.com/mail/u/0/#inbox">danipatilea99@gmail.com</a></p>
+    <p>A doua adresa: <a href="https://www.google.com/maps/place/Strada+Chibzuin%C8%9Bei+6/data=!4m6!3m5!1s0x40b201ed196ed5c1:0xc1e31df1d47a89ac!8m2!3d44.448777!4d26.0550317!19sIjASLgoUChIJwdVuGe0BskARmiDEVyxENU4QBioUChIJR5x6IO0BskAR6Dlg1M9C22g?authuser=0&hl=ro&rclk=1">strada Chibzuintei 6, sector 6, Bucuresti</a></p>
+    <p>Telefon: 0749654911</p>
+    <hr>
+    <form action="contact.html"   method="post">
+        <label for="firstname">first name:</label>
+        <input type="text" id="firstname" placeholder="firstname">
+        <br>
+        <label for="secondname">second name</label>
+        <input type="text" id="secondname" placeholder="secondname">
+        <input type="color">
+        <label for="cifra">introduceti cifra</label>
+        <input type="number" id="cifra" value="cifra" placeholder="cifra">
+        <label for="parola">introduceti parola</label>
+        <input type="password" id="parola" placeholder="parola">
+        <br>
+        <input type="submit" value="TRIMITE">
+    </form><br>
+
+    <form action="mailto:danipatilea99@gmail.com" method="post" enctype="text/plain">
+        <label for="mail">email:</label>
+        <input type="email" id="mail" name="mail" value="">
+        <label>mesajul tau:</label>
+        <textarea name="name" cols="20" rows="5" placeholder="cf nepoate"></textarea>
+        <input type="submit" value="trimite mail" name="">
+    </form>
+
+    <form action="contact.html">
+        <fieldset>
+            <legend>poza cu fructul preferat</legend>
+            
+        <label for="poza">selectati poza</label>
+        <input type="file" placeholder="poza" id="poza" accept=".jpg">
+        <input type="submit" value="trimite"><br>
+            <form action="fructe.html" >
+                <fieldset>
+                    <legend>fructul preferat</legend>
+                <input type="radio" value="mar" name="MAR" id="mar">
+                <label for="mar">mar</label><br>
+                <input type="radio" name="PRUNA" id="pruna" value="pruna">
+                <label for="pruna">pruna</label><br>
+                <input type="radio" value="banana" name="BANANA" id="banana">
+                <label for="banana">banana</label>
+                <input type="submit" value="vezi fruct preferat">
+                
+                </fieldset>
+            </form>
+
+
+    </fieldset>
+    </form>
+
+</body>
+</html>
